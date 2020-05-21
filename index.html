@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Expense Manager</title>
+</head>
+<body>
+    <div>
+        <div id="logo">
+            <h1>Masai Expense Manager</h1>
+        </div>
+        <div class="showcase">
+            <div class="input">
+                <div id="green">
+                    <label for="Income"> Income
+                        <input type="number" name="income" id="income">
+                    </label>
+                    <!-- <select name="" id="Isource">
+                        <option value="select source">----Income Source----</option>
+                        <option value="salary">Salary</option>
+                        <option value="Interset">Interest</option>
+                        <option value="others">others</option>
+                    </select> -->
+                    <button id="submit">Add</button>
+                </div>
+                <br>
+                <div id="red">
+                    <label for="expense" id="exp"> Expense
+                        <input type="number" name="expense" id="expense">
+                    </label>
+                    <!-- <select name="" id="Excategory">
+                        <option value="select category">--Expense Category--</option>
+                        <option value="Rent">Rent</option>
+                        <option value="Grocery">Grocery</option>
+                        <option value="Cars">Cars</option>
+                        <option value="electricity">Electricity</option>
+                        <option value="others">others</option>
+                    </select> -->
+
+                    <button id="add">Add</button>
+                </div>
+                <br>
+                <div class="display">
+                    <h4>Total Income</h4>
+                    <div id="showIncome"></div>
+                </div>
+                
+                <div class="display">
+                    <h4>Total Expense</h4>
+                    <div id="showExpense"></div>
+                </div>
+                
+            </div>
+            <div class="input">
+                <h2>Balance</h2>
+                <div id="bal"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
